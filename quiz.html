@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+<div class="app">
+        <div id="image-frame">
+            <img src="./assets/images/tsc_high_res-QCAWIHJC.png" alt="Quiz Image" width="40%" height="200px">
+        </div>
+        <h1>Welcome to the Quiz App</h1>
+    <div class="quiz">
+        <h2 id="question"></h2>
+        <div class="answer-buttons">
+            <label for="a">
+                <input name="answer" type="radio" class="btn" id="a" title="Answer A" value="0">                 
+                <span class="ans"></span>
+
+            </label>
+            <label for="b">
+                <input name="answer" type="radio" class="btn" id="b" title="Answer B" value="0">
+                <span class="ans"></span>
+            </label>
+            <label for="c">
+                <input name="answer" type="radio" class="btn" id="c" title="Answer C" value="1">                
+                <span class="ans"></span>
+
+
+            </label>
+            <label for="d">
+                <input name="answer" type="radio" class="btn" id="d" title="Answer D" value="2">
+                <span class="ans"></span>
+
+            </label>
+    </div>
+    <div>
+    <button id="previous-btn">Previous</button>
+    <button id="next-btn">Next</button>
+    <button id="submit-btn">Submit</button>
+    </div>
+</div>
+<script src="script1.js"></script>
+</body>
+</html>
